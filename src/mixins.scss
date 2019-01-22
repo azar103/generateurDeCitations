@@ -1,0 +1,18 @@
+@mixin buttonGenerator($width, $margin, $padding, $fontSize, $fontWeight){
+  -webkit-transform: $width;
+  -webkit-transform: $margin;
+  -webkit-transform: $padding;
+  -webkit-transform: $fontSize;
+  -webkit-transform: $fontWeight;
+  -ms-transform: $width;
+  -ms-transform: $margin;
+  -ms-transform: $padding;
+  -ms-transform: $fontSize;
+  -ms-transform: $fontWeight;
+  min-width:  $width;
+  margin: $margin;
+  font-family: $font;
+  padding: $padding;
+  font-size: $fontSize;
+  font-weight:$fontWeight;
+}

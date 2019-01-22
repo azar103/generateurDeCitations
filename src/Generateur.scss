@@ -1,0 +1,40 @@
+
+@import "variables";
+@import "mixins";
+.bouton {@include buttonGenerator(200px, 2px, 15px, 20px, bold);}
+  
+
+.groupe {
+  margin-top: 40px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 90%;
+}
+#auteur
+{
+  float: right;
+  position:relative;
+  top: 35px;
+  right: 140px;
+}
+.citation
+{
+  border-left: 4px solid  #ff8000;
+  padding-left: 4px;
+  height: 80px;
+  font-size: 18px;
+  font-family: 'Dancing Script';
+  margin-top: 10px;
+  padding-top: 4px;
+  margin-left: 18px;
+  margin-right: 8px;
+}
+@media (max-width: 880px){
+  .citation{
+    height: 100px;
+    position:relative;
+    
+  }
+}
